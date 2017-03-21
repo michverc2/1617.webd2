@@ -26,3 +26,37 @@ body {
   background: rgba(41,182,246 ,1);
   color: rgba(1,87,155 ,1);
 }
+.nav{
+  width: 960px;
+  background: rgba(26,35,126,1); 
+  margin 0 auto;
+}
+
+.nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item-link {
+  display: block;
+  color: rgba(197,202,233,1);
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.nav__item-link:hover {
+  background: rgba(27,94,32,1);
+  color: rgba(200,230,201,1);
+}
+
+.nav > ul:after {
+  content: ' ';
+  clear: both;
+  display: block;
+}
+
+.nav__item{
+  float:left;
+}
